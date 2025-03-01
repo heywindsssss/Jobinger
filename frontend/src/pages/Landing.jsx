@@ -18,8 +18,7 @@ const Landing =()=>{
                     <h1>
                         Job <span>Tracking</span> App
                     </h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut dolor, esse perspiciatis laudantium reprehenderit voluptatibus incidunt atque assumenda, 
-                        officiis modi dolorum necessitatibus velit quis rerum. Mollitia repellendus cupiditate sint temporibus.</p>
+                    <p>Reduce the stress of job hunting. Our app simplifies the process by providing a clear overview of your progress. Gain peace of mind knowing you're in control of your career search.</p>
                     <Link to='/register' className='btn register-link'>Register </Link>
                     <Link to='/login' className='btn register-link'>Login / Demo user</Link>
                 </div>
