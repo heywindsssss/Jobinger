@@ -53,7 +53,7 @@ export const validateIdParam=withValidationErrors([
 ])
 
 export const validateRegisterInput=withValidationErrors([
-    body('name').notEmpty().withMessage("Name can not be empty"),
+    body('firstName').notEmpty().withMessage("Name can not be empty"),
     body('lastName').notEmpty().withMessage("Last Name can not be empty"),
     body('email')
     .notEmpty().withMessage("email can not be empty")
