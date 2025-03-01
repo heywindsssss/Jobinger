@@ -1,7 +1,7 @@
-import logo from '../assets/images/logo.svg'
+import icon from '../assets/images/icon.png'
 
 const Logo =()=>{
-    return <img src={logo} alt='jobify' className='logo'></img>
+    return <img src={icon} alt='jobify' className='logo'></img>
 }
 
 export default Logo;
